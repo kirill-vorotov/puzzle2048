@@ -1,0 +1,23 @@
+{
+    "name": "ColorBallsPuzzle",
+    "rootNamespace": "",
+    "references": [
+        "ColorBallsPuzzle.Gameplay",
+        "ColorBallsPuzzle.UI",
+        "ColorBallsPuzzle.AssetManagement",
+        "UniTask",
+        "UniTask.Linq",
+        "MessagePack",
+        "DOTweenPro.Scripts",
+        "AmplitudeSDKCore"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

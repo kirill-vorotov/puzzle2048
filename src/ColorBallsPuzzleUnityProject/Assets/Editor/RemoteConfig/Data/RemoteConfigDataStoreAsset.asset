@@ -1,0 +1,1263 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
+  m_Name: RemoteConfigDataStoreAsset
+  m_EditorClassIdentifier: 
+  <dataStoreStatus>k__BackingField: 0
+  <configId>k__BackingField: 
+  <currentEnvironmentName>k__BackingField: 
+  <currentEnvironmentId>k__BackingField: 
+  <currentEnvironmentIsDefault>k__BackingField: 0
+  <addedRulesIDs>k__BackingField: []
+  <updatedRulesIDs>k__BackingField: []
+  <deletedRulesIDs>k__BackingField: []
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"834a4eb4-57b1-4e96-aada-5de6f88c0c81\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"DescriptionsJson\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"Version\":
+    \"1\",\r\n        \"Campaign\": {\r\n          \"LevelDescriptions\": {\r\n           
+    \"100\": {\r\n              \"id\": \"100\",\r\n              \"init_fwd_spd\":
+    1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 0\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 8,\r\n              \"goal\": {\r\n               
+    \"Value\": 3\r\n              },\r\n              \"balls\": [\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                }\r\n              ],\r\n             
+    \"projectiles\": [\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    }\r\n              ],\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_0.unity\"\r\n              }\r\n           
+    },\r\n            \"200\": {\r\n              \"id\": \"200\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 8,\r\n              \"goal\": {\r\n               
+    \"Value\": 4\r\n              },\r\n              \"balls\": [\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                }\r\n              ],\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_1.unity\"\r\n              }\r\n           
+    },\r\n            \"300\": {\r\n              \"id\": \"300\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 5\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_0.unity\"\r\n              }\r\n           
+    },\r\n            \"400\": {\r\n              \"id\": \"400\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 5\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_1.unity\"\r\n              }\r\n           
+    },\r\n            \"500\": {\r\n              \"id\": \"500\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 5\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_2.unity\"\r\n              }\r\n           
+    },\r\n            \"600\": {\r\n              \"id\": \"600\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 5\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_3.unity\"\r\n              }\r\n           
+    },\r\n            \"700\": {\r\n              \"id\": \"700\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 5\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_4.unity\"\r\n              }\r\n           
+    },\r\n            \"800\": {\r\n              \"id\": \"800\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 6\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_0.unity\"\r\n              }\r\n           
+    },\r\n            \"900\": {\r\n              \"id\": \"900\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 6\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_1.unity\"\r\n              }\r\n           
+    },\r\n            \"1000\": {\r\n              \"id\": \"1000\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 6\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_2.unity\"\r\n              }\r\n           
+    },\r\n            \"1100\": {\r\n              \"id\": \"1100\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 6\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_3.unity\"\r\n              }\r\n           
+    },\r\n            \"1200\": {\r\n              \"id\": \"1200\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 6\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_4.unity\"\r\n              }\r\n           
+    },\r\n            \"1300\": {\r\n              \"id\": \"1300\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 7\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_0.unity\"\r\n              }\r\n           
+    },\r\n            \"1400\": {\r\n              \"id\": \"1400\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 7\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_1.unity\"\r\n              }\r\n           
+    },\r\n            \"1500\": {\r\n              \"id\": \"1500\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 7\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_2.unity\"\r\n              }\r\n           
+    },\r\n            \"1600\": {\r\n              \"id\": \"1600\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 7\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_3.unity\"\r\n              }\r\n           
+    },\r\n            \"1700\": {\r\n              \"id\": \"1700\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 7\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_4.unity\"\r\n              }\r\n           
+    },\r\n            \"1800\": {\r\n              \"id\": \"1800\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 8\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_0.unity\"\r\n              }\r\n           
+    },\r\n            \"1900\": {\r\n              \"id\": \"1900\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 8\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_1.unity\"\r\n              }\r\n           
+    },\r\n            \"2000\": {\r\n              \"id\": \"2000\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 8\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_2.unity\"\r\n              }\r\n           
+    },\r\n            \"2100\": {\r\n              \"id\": \"2100\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 8\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_3.unity\"\r\n              }\r\n           
+    },\r\n            \"2200\": {\r\n              \"id\": \"2200\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 8\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_4.unity\"\r\n              }\r\n           
+    },\r\n            \"2300\": {\r\n              \"id\": \"2300\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 9\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_0.unity\"\r\n              }\r\n           
+    },\r\n            \"2400\": {\r\n              \"id\": \"2400\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 9\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_1.unity\"\r\n              }\r\n           
+    },\r\n            \"2500\": {\r\n              \"id\": \"2500\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 9\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_2.unity\"\r\n              }\r\n           
+    },\r\n            \"2600\": {\r\n              \"id\": \"2600\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 9\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_3.unity\"\r\n              }\r\n           
+    },\r\n            \"2700\": {\r\n              \"id\": \"2700\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 9\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_4.unity\"\r\n              }\r\n           
+    },\r\n            \"2800\": {\r\n              \"id\": \"2800\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 10\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_0.unity\"\r\n              }\r\n           
+    },\r\n            \"2900\": {\r\n              \"id\": \"2900\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 10\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_1.unity\"\r\n              }\r\n           
+    },\r\n            \"3000\": {\r\n              \"id\": \"3000\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 10\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_2.unity\"\r\n              }\r\n           
+    },\r\n            \"3100\": {\r\n              \"id\": \"3100\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 10\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_3.unity\"\r\n              }\r\n           
+    },\r\n            \"3200\": {\r\n              \"id\": \"3200\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 10\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_4.unity\"\r\n              }\r\n           
+    },\r\n            \"3300\": {\r\n              \"id\": \"3300\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 11\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_0.unity\"\r\n              }\r\n           
+    },\r\n            \"3400\": {\r\n              \"id\": \"3400\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 11\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_1.unity\"\r\n              }\r\n           
+    },\r\n            \"3500\": {\r\n              \"id\": \"3500\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 11\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_2.unity\"\r\n              }\r\n           
+    },\r\n            \"3600\": {\r\n              \"id\": \"3600\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 11\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_3.unity\"\r\n              }\r\n           
+    },\r\n            \"3700\": {\r\n              \"id\": \"3700\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 11\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_4.unity\"\r\n              }\r\n           
+    },\r\n            \"3800\": {\r\n              \"id\": \"3800\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 12\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_0.unity\"\r\n              }\r\n           
+    },\r\n            \"3900\": {\r\n              \"id\": \"3900\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 12\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_1.unity\"\r\n              }\r\n           
+    },\r\n            \"4000\": {\r\n              \"id\": \"4000\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 12\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_2.unity\"\r\n              }\r\n           
+    },\r\n            \"4100\": {\r\n              \"id\": \"4100\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 12\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_3.unity\"\r\n              }\r\n           
+    },\r\n            \"4200\": {\r\n              \"id\": \"4200\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 12\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_4.unity\"\r\n              }\r\n           
+    }\r\n          },\r\n          \"Levels\": [\r\n            \"100\",\r\n           
+    \"200\",\r\n            \"500\",\r\n            \"1100\",\r\n            \"1700\",\r\n           
+    \"1800\",\r\n            \"1900\",\r\n            \"2500\",\r\n            \"2600\",\r\n           
+    \"3200\",\r\n            \"2800\",\r\n            \"3400\",\r\n            \"3500\",\r\n           
+    \"4100\",\r\n            \"4200\",\r\n            \"3800\",\r\n            \"3900\",\r\n           
+    \"4000\",\r\n            \"4100\",\r\n            \"4200\",\r\n            \"3800\",\r\n           
+    \"3900\",\r\n            \"4000\",\r\n            \"4100\",\r\n            \"4200\",\r\n           
+    \"3800\",\r\n            \"3900\",\r\n            \"4000\",\r\n            \"4100\",\r\n           
+    \"4200\",\r\n            \"3800\",\r\n            \"3900\",\r\n            \"4000\",\r\n           
+    \"4100\",\r\n            \"4200\",\r\n            \"3800\",\r\n            \"3900\",\r\n           
+    \"4000\",\r\n            \"4100\",\r\n            \"4200\"\r\n          ]\r\n       
+    }\r\n      }\r\n    }\r\n  }\r\n]"
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"834a4eb4-57b1-4e96-aada-5de6f88c0c81\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"DescriptionsJson\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"Version\":
+    \"1\",\r\n        \"Campaign\": {\r\n          \"LevelDescriptions\": {\r\n           
+    \"100\": {\r\n              \"id\": \"100\",\r\n              \"init_fwd_spd\":
+    1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 0\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 8,\r\n              \"goal\": {\r\n               
+    \"Value\": 3\r\n              },\r\n              \"balls\": [\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                }\r\n              ],\r\n             
+    \"projectiles\": [\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    },\r\n                {\r\n                  \"Value\": 0\r\n               
+    }\r\n              ],\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_0.unity\"\r\n              }\r\n           
+    },\r\n            \"200\": {\r\n              \"id\": \"200\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 8,\r\n              \"goal\": {\r\n               
+    \"Value\": 4\r\n              },\r\n              \"balls\": [\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 1\r\n                },\r\n               
+    {\r\n                  \"Value\": 0\r\n                },\r\n               
+    {\r\n                  \"Value\": 2\r\n                }\r\n              ],\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_1.unity\"\r\n              }\r\n           
+    },\r\n            \"300\": {\r\n              \"id\": \"300\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 5\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_0.unity\"\r\n              }\r\n           
+    },\r\n            \"400\": {\r\n              \"id\": \"400\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 5\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_1.unity\"\r\n              }\r\n           
+    },\r\n            \"500\": {\r\n              \"id\": \"500\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 5\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_2.unity\"\r\n              }\r\n           
+    },\r\n            \"600\": {\r\n              \"id\": \"600\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 5\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_3.unity\"\r\n              }\r\n           
+    },\r\n            \"700\": {\r\n              \"id\": \"700\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 5\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_4.unity\"\r\n              }\r\n           
+    },\r\n            \"800\": {\r\n              \"id\": \"800\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 6\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_0.unity\"\r\n              }\r\n           
+    },\r\n            \"900\": {\r\n              \"id\": \"900\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 6\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_1.unity\"\r\n              }\r\n           
+    },\r\n            \"1000\": {\r\n              \"id\": \"1000\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 6\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_2.unity\"\r\n              }\r\n           
+    },\r\n            \"1100\": {\r\n              \"id\": \"1100\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 6\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_3.unity\"\r\n              }\r\n           
+    },\r\n            \"1200\": {\r\n              \"id\": \"1200\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 6\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_4.unity\"\r\n              }\r\n           
+    },\r\n            \"1300\": {\r\n              \"id\": \"1300\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 7\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_0.unity\"\r\n              }\r\n           
+    },\r\n            \"1400\": {\r\n              \"id\": \"1400\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 7\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_1.unity\"\r\n              }\r\n           
+    },\r\n            \"1500\": {\r\n              \"id\": \"1500\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 7\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_2.unity\"\r\n              }\r\n           
+    },\r\n            \"1600\": {\r\n              \"id\": \"1600\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 7\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_3.unity\"\r\n              }\r\n           
+    },\r\n            \"1700\": {\r\n              \"id\": \"1700\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 7\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_4.unity\"\r\n              }\r\n           
+    },\r\n            \"1800\": {\r\n              \"id\": \"1800\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 8\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_0.unity\"\r\n              }\r\n           
+    },\r\n            \"1900\": {\r\n              \"id\": \"1900\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 8\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_1.unity\"\r\n              }\r\n           
+    },\r\n            \"2000\": {\r\n              \"id\": \"2000\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 8\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_2.unity\"\r\n              }\r\n           
+    },\r\n            \"2100\": {\r\n              \"id\": \"2100\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 8\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_3.unity\"\r\n              }\r\n           
+    },\r\n            \"2200\": {\r\n              \"id\": \"2200\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 8\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_4.unity\"\r\n              }\r\n           
+    },\r\n            \"2300\": {\r\n              \"id\": \"2300\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 9\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_0.unity\"\r\n              }\r\n           
+    },\r\n            \"2400\": {\r\n              \"id\": \"2400\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 9\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_1.unity\"\r\n              }\r\n           
+    },\r\n            \"2500\": {\r\n              \"id\": \"2500\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 9\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_2.unity\"\r\n              }\r\n           
+    },\r\n            \"2600\": {\r\n              \"id\": \"2600\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 9\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_3.unity\"\r\n              }\r\n           
+    },\r\n            \"2700\": {\r\n              \"id\": \"2700\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 9\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_4.unity\"\r\n              }\r\n           
+    },\r\n            \"2800\": {\r\n              \"id\": \"2800\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 10\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_0.unity\"\r\n              }\r\n           
+    },\r\n            \"2900\": {\r\n              \"id\": \"2900\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 10\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_1.unity\"\r\n              }\r\n           
+    },\r\n            \"3000\": {\r\n              \"id\": \"3000\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 10\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_2.unity\"\r\n              }\r\n           
+    },\r\n            \"3100\": {\r\n              \"id\": \"3100\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 10\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_3.unity\"\r\n              }\r\n           
+    },\r\n            \"3200\": {\r\n              \"id\": \"3200\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 10\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_4.unity\"\r\n              }\r\n           
+    },\r\n            \"3300\": {\r\n              \"id\": \"3300\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 11\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_0.unity\"\r\n              }\r\n           
+    },\r\n            \"3400\": {\r\n              \"id\": \"3400\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 11\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_1.unity\"\r\n              }\r\n           
+    },\r\n            \"3500\": {\r\n              \"id\": \"3500\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 11\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_2.unity\"\r\n              }\r\n           
+    },\r\n            \"3600\": {\r\n              \"id\": \"3600\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 11\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_3.unity\"\r\n              }\r\n           
+    },\r\n            \"3700\": {\r\n              \"id\": \"3700\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 11\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_4.unity\"\r\n              }\r\n           
+    },\r\n            \"3800\": {\r\n              \"id\": \"3800\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 12\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_0.unity\"\r\n              }\r\n           
+    },\r\n            \"3900\": {\r\n              \"id\": \"3900\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 12\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_1.unity\"\r\n              }\r\n           
+    },\r\n            \"4000\": {\r\n              \"id\": \"4000\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 12\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_2.unity\"\r\n              }\r\n           
+    },\r\n            \"4100\": {\r\n              \"id\": \"4100\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 12\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_3.unity\"\r\n              }\r\n           
+    },\r\n            \"4200\": {\r\n              \"id\": \"4200\",\r\n             
+    \"init_fwd_spd\": 1,\r\n              \"max_fwd_spd\": 1,\r\n              \"fwd_acceleration\":
+    0,\r\n              \"init_back_spd\": 25,\r\n              \"init_health\":
+    {\r\n                \"Value\": 3\r\n              },\r\n              \"dmg_per_ball\":
+    {\r\n                \"Value\": 1\r\n              },\r\n              \"limit_balls_spawn\":
+    false,\r\n              \"balls_amount\": 16,\r\n              \"goal\": {\r\n               
+    \"Value\": 12\r\n              },\r\n              \"balls\": null,\r\n             
+    \"projectiles\": null,\r\n              \"max_projectile_level\": {\r\n               
+    \"Value\": 0\r\n              },\r\n              \"visual\": {\r\n               
+    \"SceneAddress\": \"Assets/Scenes/Level_4.unity\"\r\n              }\r\n           
+    }\r\n          },\r\n          \"Levels\": [\r\n            \"100\",\r\n           
+    \"200\",\r\n            \"500\",\r\n            \"1100\",\r\n            \"1700\",\r\n           
+    \"1800\",\r\n            \"1900\",\r\n            \"2500\",\r\n            \"2600\",\r\n           
+    \"3200\",\r\n            \"2800\",\r\n            \"3400\",\r\n            \"3500\",\r\n           
+    \"4100\",\r\n            \"4200\",\r\n            \"3800\",\r\n            \"3900\",\r\n           
+    \"4000\",\r\n            \"4100\",\r\n            \"4200\",\r\n            \"3800\",\r\n           
+    \"3900\",\r\n            \"4000\",\r\n            \"4100\",\r\n            \"4200\",\r\n           
+    \"3800\",\r\n            \"3900\",\r\n            \"4000\",\r\n            \"4100\",\r\n           
+    \"4200\",\r\n            \"3800\",\r\n            \"3900\",\r\n            \"4000\",\r\n           
+    \"4100\",\r\n            \"4200\",\r\n            \"3800\",\r\n            \"3900\",\r\n           
+    \"4000\",\r\n            \"4100\",\r\n            \"4200\"\r\n          ]\r\n       
+    }\r\n      }\r\n    }\r\n  }\r\n]"
+  _environments: "[\r\n  {\r\n    \"projectId\": \"db7370d7-ac53-41c0-a160-b09cf4aeb4f6\",\r\n   
+    \"name\": \"production\",\r\n    \"id\": \"7fffda44-9fd0-44e3-9aa0-acc1e28ec159\",\r\n   
+    \"isDefault\": true,\r\n    \"createdAt\": \"2021-08-19T20:11:37Z\",\r\n    \"updatedAt\":
+    \"2021-08-19T20:11:37Z\"\r\n  },\r\n  {\r\n    \"projectId\": \"db7370d7-ac53-41c0-a160-b09cf4aeb4f6\",\r\n   
+    \"name\": \"development\",\r\n    \"id\": \"5e44ecdb-4a4b-4007-85c3-e6208c444002\",\r\n   
+    \"isDefault\": false,\r\n    \"createdAt\": \"2021-08-19T20:21:21Z\",\r\n   
+    \"updatedAt\": \"2021-08-19T20:21:21Z\"\r\n  }\r\n]"
+  _rulesList: '[]'
+  _lastCachedRulesList: '[]'

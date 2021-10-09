@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: LocalLevels
+  m_EditorClassIdentifier: 
+  m_GroupName: LocalLevels
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c43db21b8d058d246a126f2bc32db835
+  m_SerializeEntries:
+  - m_GUID: a47f9faf3493a424ba7ca2d4a55da969
+    m_Address: Assets/Scenes/Level_0.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2a3fbe82e78ffca4ead667f5253273e3
+    m_Address: Assets/Scenes/Level_1.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d19ed27339fbd21449a97afbf156c23a
+    m_Address: Assets/Scenes/Level_2.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cc19dac9e1ee36a4896ba4ef5bac8bf6
+    m_Address: Assets/Scenes/Level_3.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 230b995cc652e6d49b7c9384a23362e9
+    m_Address: Assets/Scenes/Level_4.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 69b3b33121080754d8571650ed8fb393, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 23e0afa5720b56644a41a13a99faf49d, type: 2}
+    - {fileID: 11400000, guid: b31ae738c4148f740acc051e08fd8a62, type: 2}

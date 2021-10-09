@@ -1,0 +1,32 @@
+{
+    "name": "ColorBallsPuzzle.UI",
+    "rootNamespace": "",
+    "references": [
+        "ColorBallsPuzzle.Gameplay",
+        "UnityEngine.UI",
+        "Unity.TextMeshPro",
+        "UniTask",
+        "UniTask.DOTween",
+        "UniTask.Linq",
+        "UniTask.TextMeshPro",
+        "DOTweenPro.Scripts",
+        "DOTween.Modules",
+        "Unity.Addressables",
+        "Unity.ResourceManager",
+        "UniTask.Addressables",
+        "ColorBallsPuzzle.AssetManagement",
+        "AmplitudeSDKCore",
+        "MoreMountains.NiceVibrations",
+        "MoreMountains.NiceVibrations.Haptics",
+        "MoreMountains.NiceVibrations.Rumble"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

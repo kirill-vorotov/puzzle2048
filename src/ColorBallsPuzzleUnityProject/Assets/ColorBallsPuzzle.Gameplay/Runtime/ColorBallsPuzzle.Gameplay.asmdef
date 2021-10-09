@@ -1,0 +1,32 @@
+{
+    "name": "ColorBallsPuzzle.Gameplay",
+    "rootNamespace": "",
+    "references": [
+        "Dreamteck.Splines",
+        "UniTask",
+        "UniTask.DOTween",
+        "UniTask.Linq",
+        "UniTask.TextMeshPro",
+        "ColorBallsPuzzle.AssetManagement",
+        "UnityEngine.UI",
+        "Unity.TextMeshPro",
+        "Unity.InputSystem",
+        "MessagePack",
+        "MessagePack.Annotations"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "System.Buffers.dll",
+        "System.Memory.dll",
+        "System.Runtime.CompilerServices.Unsafe.dll",
+        "System.Runtime.Extensions.dll",
+        "System.Threading.Tasks.Extensions.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
